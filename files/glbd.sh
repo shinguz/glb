@@ -208,6 +208,9 @@ case $1 in
 	restart)
 		restart
 	;;
+	force-reload)
+		restart
+	;;
 	getinfo)
 		getinfo
 	;;
